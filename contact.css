@@ -1,0 +1,7 @@
+.footer-inner{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(210px,.8fr) auto;gap:48px;align-items:start}
+.footer-contact-title{font-size:22px;letter-spacing:-.025em;line-height:1.2;margin:0 0 9px}
+.footer-contact p{margin:0 0 12px}
+.footer .footer-phone{display:inline-block;color:var(--lime);font-size:18px;font-weight:800;letter-spacing:.01em;text-decoration:none}
+.footer-links{flex-direction:column;gap:13px}
+@media(max-width:800px){.footer-inner{grid-template-columns:1fr 1fr;gap:32px}.footer-links{grid-column:1/-1;flex-direction:row;margin:0}}
+@media(max-width:560px){.footer-inner{grid-template-columns:1fr;gap:26px}.footer-links{grid-column:auto;flex-direction:column;gap:12px}}
