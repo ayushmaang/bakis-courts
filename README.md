@@ -16,3 +16,5 @@ This folder is published from the `main` branch of [ayushmaang/bakis-courts](htt
 This site is an independent guide and is not operated by the Brambleton Community Association. The published access guidance should be rechecked before launch and periodically afterward.
 
 The page includes `WebPage` and `Place` structured data describing the guide and court separately. It does not claim that the guide is the official park site or that the court is a public business.
+
+Google Search Console ownership for the URL-prefix property `https://ayushmaang.github.io/bakis-courts/` is verified by the `google-site-verification` tag in `index.html`. Keep that tag when editing the site. The sitemap is at `https://ayushmaang.github.io/bakis-courts/sitemap.xml` and was submitted to Search Console on October 6, 2026. Update its `<lastmod>` only when the page meaningfully changes.
