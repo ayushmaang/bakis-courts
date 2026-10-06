@@ -4,5 +4,15 @@
 .footer .footer-phone{display:inline-block;color:var(--lime);font-size:18px;font-weight:800;letter-spacing:.01em;text-decoration:none}
 .footer-links{flex-direction:column;gap:13px}
 .hero-disclosure{display:inline-block;max-width:500px;margin:-4px 0 27px;padding:9px 12px;border-left:2px solid var(--lime);background:rgba(8,27,19,.53);color:#edf1e9;font-size:11px;font-weight:700;line-height:1.5;letter-spacing:.01em}
+.faq{background:#f7f7f0;border-top:1px solid var(--line)}
+.faq-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:90px}
+.faq-intro{max-width:370px;color:#647166;font-size:15px;line-height:1.75}
+.faq-item{padding:25px 0;border-top:1px solid var(--line)}
+.faq-item:first-child{padding-top:0;border-top:0}
+.faq-item h3{font-size:19px;line-height:1.3;margin:0 0 9px}
+.faq-item p{max-width:650px;color:#5f6e63;font-size:14px;line-height:1.75;margin:0}
+.faq-item a{text-underline-offset:3px;font-weight:700}
+@media(max-width:900px){.faq-grid{gap:45px}}
+@media(max-width:700px){.faq-grid{grid-template-columns:1fr;gap:25px}.faq-item:first-child{border-top:1px solid var(--line);padding-top:25px}}
 @media(max-width:800px){.footer-inner{grid-template-columns:1fr 1fr;gap:32px}.footer-links{grid-column:1/-1;flex-direction:row;margin:0}}
 @media(max-width:560px){.footer-inner{grid-template-columns:1fr;gap:26px}.footer-links{grid-column:auto;flex-direction:column;gap:12px}}
