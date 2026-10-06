@@ -3,5 +3,6 @@
 .footer-contact p{margin:0 0 12px}
 .footer .footer-phone{display:inline-block;color:var(--lime);font-size:18px;font-weight:800;letter-spacing:.01em;text-decoration:none}
 .footer-links{flex-direction:column;gap:13px}
+.hero-disclosure{display:inline-block;max-width:500px;margin:-4px 0 27px;padding:9px 12px;border-left:2px solid var(--lime);background:rgba(8,27,19,.53);color:#edf1e9;font-size:11px;font-weight:700;line-height:1.5;letter-spacing:.01em}
 @media(max-width:800px){.footer-inner{grid-template-columns:1fr 1fr;gap:32px}.footer-links{grid-column:1/-1;flex-direction:row;margin:0}}
 @media(max-width:560px){.footer-inner{grid-template-columns:1fr;gap:26px}.footer-links{grid-column:auto;flex-direction:column;gap:12px}}
