@@ -12,6 +12,10 @@
 .faq-item h3{font-size:19px;line-height:1.3;margin:0 0 9px}
 .faq-item p{max-width:650px;color:#5f6e63;font-size:14px;line-height:1.75;margin:0}
 .faq-item a{text-underline-offset:3px;font-weight:700}
+.photo-card-maps{background:#15291e;isolation:isolate}
+.photo-card-maps::before{display:none}
+.photo-card-maps>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 42%;filter:brightness(.78)}
+.photo-card-maps::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(6,23,16,.83),transparent 65%);pointer-events:none}
 @media(max-width:900px){.faq-grid{gap:45px}}
 @media(max-width:700px){.faq-grid{grid-template-columns:1fr;gap:25px}.faq-item:first-child{border-top:1px solid var(--line);padding-top:25px}}
 @media(max-width:800px){.footer-inner{grid-template-columns:1fr 1fr;gap:32px}.footer-links{grid-column:1/-1;flex-direction:row;margin:0}}
