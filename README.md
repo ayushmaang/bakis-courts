@@ -1,5 +1,7 @@
 # Baki's Courts website
 
+> **Draft branch:** This branch previews possible court-operator contact wording. It is not the live site, and the operator claim is not verified. See [DRAFT_OPERATOR_CHECKLIST.md](DRAFT_OPERATOR_CHECKLIST.md) before considering publication.
+
 A static, single-page independent visitor guide for Baki's Courts at Belmont Trace Park in Brambleton, Virginia. The live site is [ayushmaang.github.io/bakis-courts](https://ayushmaang.github.io/bakis-courts/). Open `index.html` locally or serve this folder with any static web server.
 
 ## Publishing on GitHub Pages
